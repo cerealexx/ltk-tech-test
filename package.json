@@ -1,0 +1,19 @@
+{
+  "name": "ltk-tech",
+  "version": "1.0.0",
+  "description": "A node program that iterates through files and subfiles counting the number value of each line.",
+  "scripts": {
+    "start": "node index",
+    "test": "jest --verbose"
+  },
+  "author": "Alex Artigas",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
